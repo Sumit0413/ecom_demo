@@ -3,6 +3,8 @@ import React from 'react'
 import Image from 'next/image';
 
 const Herobanner = () => {
+
+ 
   return (
   <>
    <div className='flex justify-center items-center '>
@@ -34,8 +36,11 @@ const Herobanner = () => {
       </video>
     </div>
 
+
    
     </div>
+
+    
   </>
   )
 }

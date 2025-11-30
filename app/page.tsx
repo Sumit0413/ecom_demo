@@ -3,6 +3,9 @@ import React from 'react'
 import HeroProducts from '@/components/heroPage/HeroProducts'
 import HeroBags from '@/components/heroPage/HeroBags'
 import Herobanner from '@/components/heroPage/Herobanner'
+import Textbnr from '@/components/heroPage/Textbnr'
+import BrandMarquee from '@/components/heroPage/Marquee'
+import ImgMar from '@/components/heroPage/ImgMar'
 
 const page = () => {
   return (
@@ -12,7 +15,12 @@ const page = () => {
       <HeroProducts />
       <Herobanner />
       <HeroBags />
-      <Herobanner />
+
+      <Textbnr />
+      <BrandMarquee />
+      <ImgMar />
+      
+    
       
     </>
   )

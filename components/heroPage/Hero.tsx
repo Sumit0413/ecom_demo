@@ -13,7 +13,7 @@ const Hero = () => {
           className='object-cover w-full h-full'
         />
 
-        {/* Logo at top */}
+        
         <div className='absolute top-8 left-1/2 transform -translate-x-1/2 z-10 text-white'>
           <Image
             src='/name.svg' 
@@ -23,17 +23,17 @@ const Hero = () => {
           />
         </div>
 
-        {/* Text content in middle */}
+      
         <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white text-center w-full'>
           <div className='mb-8'>
             <h1 className='text-xl md:text-2xl uppercase tracking-widest mb-4'>Redefine Your Elegance</h1>
             <p className='text-4xl md:text-6xl lg:text-7xl font-light'>
-              Dresses you'll adore
+              Dresses youll adore
             </p>
           </div>
         </div>
 
-        {/* Buttons at bottom */}
+       
         <div className='absolute bottom-125 left-1/2 transform -translate-x-1/2 z-10 text-white flex gap-4'>
           <button className='bg-white text-black px-6 py-3 uppercase tracking-widest text-sm font-semibold hover:bg-gray-100 transition-colors min-w-[150px]'>
             Shop Dress
